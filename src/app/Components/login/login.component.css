@@ -1,0 +1,120 @@
+/* Overall Section Styling */
+section {
+    background-color: #f7f7f7; /* Light background color for the section */
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  
+  /* Jumbotron Content Area */
+  .px-4.py-5.px-md-5.text-center.text-lg-start {
+    background-color: #ffffff; /* White background for content area */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 15px; /* Rounded corners for the content */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for content box */
+  }
+  
+  /* Heading and Subtitle Styling */
+  h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #333; /* Dark text color for the main heading */
+    margin-bottom: 20px;
+  }
+  
+  h1 .text-primary {
+    font-size: 40px; /* Larger size for the secondary text */
+    color: #007bff; /* Blue color for the 'Reach Your Fitness Goals' text */
+    font-weight: 600;
+  }
+  
+  p {
+    font-size: 1.125rem;
+    color: #555; /* A lighter gray for paragraph text */
+    line-height: 1.8;
+    margin-bottom: 30px;
+  }
+  
+  /* Form Card Styling */
+  .card {
+    border-radius: 15px; /* Rounded corners for the card */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Shadow around the form card */
+  }
+  
+  .card-body {
+    padding: 40px; /* Adequate padding inside the card */
+  }
+  
+  .form-outline {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-control {
+    border-radius: 8px; /* Rounded corners for input fields */
+    border: 2px solid #007bff; /* Blue border for form fields */
+    padding: 10px;
+    font-size: 1rem;
+    color: #333;
+  }
+  
+  .form-label {
+    color: #007bff; /* Blue color for form labels */
+    font-weight: 500;
+  }
+  
+  .form-check-label {
+    color: #333; /* Dark text for checkboxes */
+  }
+  
+  /* Button Styling */
+  .btn-primary {
+    background-color: #007bff; /* Primary blue color for the button */
+    border: none; /* Remove the border */
+    padding: 12px 20px;
+    font-size: 1.125rem;
+    border-radius: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .btn-block {
+    width: 100%;
+  }
+  
+  .mb-4 {
+    margin-bottom: 1.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 767px) {
+    .container {
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+  
+    .text-center {
+      text-align: center;
+    }
+  
+    h1 {
+      font-size: 2.5rem; /* Adjusting the font size for smaller screens */
+    }
+  
+    p {
+      font-size: 1rem; /* Slightly smaller text on smaller screens */
+    }
+  
+    .form-control {
+      font-size: 0.95rem; /* Smaller font size for inputs on mobile */
+    }
+  
+    .btn-primary {
+      padding: 10px 15px; /* Adjust button size for mobile */
+    }
+  }
+  
